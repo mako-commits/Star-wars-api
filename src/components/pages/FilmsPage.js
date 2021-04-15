@@ -1,13 +1,5 @@
 import React from 'react';
-import AdminCardSection1 from './sections/AdminCardSection1';
-import AdminCardSection2 from './sections/AdminCardSection2';
-import TableSection from './sections/TableSection';
-import BreadcrumSection from './sections/BreadcrumSection';
-import ChartSection1 from './sections/ChartSection1';
-import ChartSection2 from './sections/ChartSection2';
-import MapSection from './sections/MapSection';
-import ModalSection from './sections/ModalSection';
-import { MDBRow, MDBCol, MDBView, MDBCard, MDBCardBody, MDBTable, MDBTableHead, MDBTableBody, MDBIcon, MDBBreadcrumb, MDBBreadcrumbItem, MDBFormInline, MDBBtn } from 'mdbreact';
+import { MDBRow, MDBCol, MDBView, MDBCard, MDBCardBody, MDBTable, MDBTableHead, MDBTableBody, } from 'mdbreact';
 import Spinner from '../Spinner'
 export default function FilmsPage({ result_film, isLoading }) {
   return isLoading ? (

@@ -1,6 +1,5 @@
 import React from 'react'
 import spinner from '../assets/spinner.gif'
-import { MDBSpinner } from 'mdbreact';
 
 // const Spinner = () => {
 //     return (

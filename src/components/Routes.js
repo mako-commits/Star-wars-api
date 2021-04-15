@@ -18,7 +18,7 @@ const Routes = () => {
   const [specie, setSpecies] = useState([])
   const [planet, setPlanets] = useState([])
   const [isLoading, setIsLoading] = useState([true])
-  const [query, setQuery] = useState('')
+ 
 
   useEffect(() => {
     const fetchPeople = async () => {
@@ -30,7 +30,7 @@ const Routes = () => {
       setIsLoading(false)
     }
     fetchPeople()
-  }, [query])
+  }, [])
 
   useEffect(() => {
     const fetchStarships = async () => {

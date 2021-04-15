@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Navbar.css";
-import { MDBRow, MDBCol, MDBView, MDBCard, MDBCardBody, MDBTable, MDBTableHead, MDBTableBody, MDBIcon, MDBBreadcrumb, MDBBreadcrumbItem, MDBFormInline, MDBBtn } from 'mdbreact';
-// import avatar from "../../assets/avatar.svg";
+
 
 const Navbar = ({ sidebarOpen, openSidebar }) => {
   return (
